@@ -12,6 +12,11 @@
 		A3A4F06B1CB31BAF00156B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A4F0691CB31BAF00156B98 /* Main.storyboard */; };
 		A3A4F06D1CB31BAF00156B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A4F06C1CB31BAF00156B98 /* Assets.xcassets */; };
 		A3A4F0701CB31BAF00156B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A4F06E1CB31BAF00156B98 /* LaunchScreen.storyboard */; };
+		A3A4F0781CB31DD800156B98 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4F0771CB31DD800156B98 /* character.swift */; };
+		A3A4F07A1CB31F3300156B98 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4F0791CB31F3300156B98 /* player.swift */; };
+		A3A4F07C1CB320B600156B98 /* enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4F07B1CB320B600156B98 /* enemy.swift */; };
+		A3A4F07E1CB3220500156B98 /* kinsongla.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4F07D1CB3220500156B98 /* kinsongla.swift */; };
+		A3A4F0801CB3231600156B98 /* HeftyGiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4F07F1CB3231600156B98 /* HeftyGiant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		A3A4F06C1CB31BAF00156B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A4F06F1CB31BAF00156B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3A4F0711CB31BAF00156B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A4F0771CB31DD800156B98 /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		A3A4F0791CB31F3300156B98 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		A3A4F07B1CB320B600156B98 /* enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enemy.swift; sourceTree = "<group>"; };
+		A3A4F07D1CB3220500156B98 /* kinsongla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kinsongla.swift; sourceTree = "<group>"; };
+		A3A4F07F1CB3231600156B98 /* HeftyGiant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeftyGiant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				A3A4F06C1CB31BAF00156B98 /* Assets.xcassets */,
 				A3A4F06E1CB31BAF00156B98 /* LaunchScreen.storyboard */,
 				A3A4F0711CB31BAF00156B98 /* Info.plist */,
+				A3A4F0771CB31DD800156B98 /* character.swift */,
+				A3A4F0791CB31F3300156B98 /* player.swift */,
+				A3A4F07B1CB320B600156B98 /* enemy.swift */,
+				A3A4F07D1CB3220500156B98 /* kinsongla.swift */,
+				A3A4F07F1CB3231600156B98 /* HeftyGiant.swift */,
 			);
 			path = RPGOOP;
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A4F07C1CB320B600156B98 /* enemy.swift in Sources */,
+				A3A4F07A1CB31F3300156B98 /* player.swift in Sources */,
+				A3A4F0801CB3231600156B98 /* HeftyGiant.swift in Sources */,
+				A3A4F0781CB31DD800156B98 /* character.swift in Sources */,
 				A3A4F0681CB31BAF00156B98 /* ViewController.swift in Sources */,
+				A3A4F07E1CB3220500156B98 /* kinsongla.swift in Sources */,
 				A3A4F0661CB31BAF00156B98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
